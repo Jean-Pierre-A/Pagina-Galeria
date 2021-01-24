@@ -13,9 +13,29 @@ body{
 	color: #FF5D00 ;
 
 
+
+}
+#main-container{
+	
+}
+
+
+#btn_login{
+	height: 30px;
+	width: 140px;
+	margin-left: 88%;
+	margin:0px 10px 10px 1100px;
+	margin-top: -20%;
+	position: relative;
+	float: right;
+	
 }
 
 #titulo{
-	margin-right: 40%;
+	text-align: left;
+	size: 1000px;
+	font-size: 45px;
+	font-family: cursive;
 }
+
 
