@@ -1,3 +1,21 @@
-body{
-    background-color: coral;
+*{
+	padding: 0;
+	margin: 0;
 }
+
+body{
+
+	background-image: url(../imgs/Fondo-Metalizado.jpg);
+	background-size: 100%;
+	height: 100vh;
+
+	font-family: Arial, Helveica, sans-serif ;
+	color: #FF5D00 ;
+
+
+}
+
+#titulo{
+	margin-right: 40%;
+}
+
