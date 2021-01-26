@@ -3,6 +3,9 @@
 	margin: 0;
 }
 
+
+
+
 body{
 
 	background-image: url(../imgs/Fondo-Metalizado.jpg);
@@ -10,6 +13,29 @@ body{
 	height: 100vh;
 
 
+}
+
+#body-registrarse{
+	background-image: url(../imgs/yamaha_yzf_r1_yamaha_sport_bike_95773_1366x768.jpg);
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#h1-registro{
+
+}
+
+form{
+	background-color: cornsilk;
+	padding: 40px 0;
+	box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+}
+
+.form{
+	width: 100%;
 }
 
 #titulo{
