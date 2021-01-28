@@ -16,6 +16,19 @@ body{
 
 }
 
+.a-index{
+	background-color: rgba(207, 207, 207);
+	padding: 4px;
+	color: black;
+	font-size: 14px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	bottom: 28%;
+	text-decoration: none;
+	margin:0;
+	border: 2px solid;
+}
+
+
 #body-registrarse{
 	background-image: url(../imgs/yamaha_yzf_r1_yamaha_sport_bike_95773_1366x768.jpg);
 	height: 650px;
@@ -30,6 +43,7 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
 
 
 
@@ -112,7 +126,7 @@ input:focus~label{
 #titulo{
 	text-align: center;
 	font-family: Arial, Helveica, sans-serif ;
-	color: orangered ;
+	color: rgb(30, 255, 0) ;
 }
 th{
 width: 200px;
@@ -153,5 +167,6 @@ img:hover{
 	font-size: 45px;
 	font-family: cursive;
 }
+
 
 
