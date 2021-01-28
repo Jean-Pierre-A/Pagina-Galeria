@@ -1,3 +1,4 @@
+
 *{
 	padding: 2px;
 	margin: 0;
@@ -25,6 +26,10 @@ body{
 
 #h1-registro{
 
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+
 }
 
 form{
@@ -36,8 +41,72 @@ form{
 
 .form{
 	width: 100%;
+	margin: auto;
 }
 
+form .gru{
+	position: relative;
+	margin: 45px;
+}
+
+input{
+	background: none;
+	color:  #c6c6c6;
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid rgb(136, 62, 124);
+}
+
+input:focus{
+	outline: none;
+	color: rgb(0, 0, 0);
+}
+input:focus~label{
+	color: #2196f3;
+}
+
+.barra{
+	position: relative;
+	display: block;
+	width:100%;
+
+}
+
+.barra::before{
+	content: "";
+	height: 3px;
+	width: 0%;
+	bottom: 0;
+	position: absolute;
+	background: -webkit-linear-gradient(to left, #23074d, #cc5333);
+	transition: 0.3s ease width;
+
+}
+
+input:focus~.barra::before{
+
+	width: 100%;
+}
+
+#btn-registrarse{
+	font-family: 'roboto';
+	background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: none;
+	display: block;
+	width: 80%;
+	margin: 10px auto;
+	color: white;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
+
+
+}
 #titulo{
 	text-align: center;
 	font-family: Arial, Helveica, sans-serif ;
