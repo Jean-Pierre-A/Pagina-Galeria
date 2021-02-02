@@ -157,7 +157,7 @@ input:focus~label{
 #titulo{
 	margin-left: 6%;
 	font-family: 'Times New Roman', Times, serif;
-	color: rgb(255, 166, 0) ;
+	color: rgb(51, 255, 0) ;
 }
 #titulo-info{
 	text-align: center;
