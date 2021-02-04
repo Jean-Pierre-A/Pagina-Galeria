@@ -2,16 +2,17 @@ window.onload = () =>{
     alert("BIENVENIDO A LA GALERÍA CON LAS MEJORES MOTOCICLETAS 2021");
 }
 
-document.getElementById("btn-registrarse").addEventListener("click",registar);
+
 
 let Userlist = [];
 let a = document.getElementById("btn-registrarse");
 if (a) {
-  a.addEventListener("click", registar);
+  a.addEventListener('click', registrar);
 }
-let b = document.getElementById("enter-login");
+let b = document.getElementById("btn-login");
 if (b) {
-  b.addEventListener("click", login);
+  b.addEventListener('click', inicio);
+
 }
 function registrar() {
 
@@ -50,23 +51,27 @@ function getUserlist() {
   return LocalUserlist;
 }
 function review(username, password) {
+  alert("Funcion review");
   let Userlist = getUserlist();
   let pass = false;
+  
 
   for (let i = 0; i < Userlist.length; i++) {
-    if (username == Userlist[i][0] && password == Userlist[i][1]) {
+    if (username == Userlist[i][0] && password == Userlist[i][2]) {
+        alert("Entro Al If");
       pass = true;
     }
   }
   return pass;
 }
 
-function login() {
+function inicio() {
+  alert("Funcion Inicio");
   let Username = "",
     Password = "";
 
-  Username = document.getElementById("username").value;
-  Password = document.getElementById("user-password").value;
+  Username = document.getElementById("nombre").value;
+  Password = document.getElementById("contrasena").value;
   if (Username != "" && Password != "") {
     let pass = review(Username, Password);
     if (pass == true) {
