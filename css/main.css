@@ -38,6 +38,13 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+#body-contrasena{
+	background-image: url(../imgs/conta.jpg);
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 #body-info{
 	background-image: url(../imgs/Triangulo.jpg);
 	height: 650px;
@@ -90,6 +97,13 @@ form{
 	padding: 40px 0;
 	box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 	border-radius: 10px;
+	
+}
+ #a-olvido{
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
 }
 
 .form{
@@ -151,6 +165,20 @@ input:focus~label{
 	font-size: 16px;
 	cursor: pointer;
 
+}
+
+#btn-contasena{
+	background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+	display: block;
+	width: 80%;
+	margin: 10px auto;
+	color: white;
+	height: 40px;
+	font-size: 16px;
+	cursor: pointer;
 
 }
 #titulo{
