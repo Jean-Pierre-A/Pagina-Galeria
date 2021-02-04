@@ -111,7 +111,7 @@ function olvido_contrasena(){
         Password ='No se encuentran los datos ingresados, verifique';
       }
     }
-    alert('Su contraseña es   '+ Password);
+    alert('Su contraseña '+ Password);
   }else{
       alert('Ingrese todos los campos');
   }
