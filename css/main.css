@@ -246,6 +246,23 @@ img:hover{
 	
 }
 
+.izquierda-info{
+	background: url(../imgs/logitos.png);
+	background-size: cover;
+	background-position: center;
+	width:50%;
+	height: 100vh;
+	
+}
+
+.derecha-info {
+	background:rgb(79, 32, 207);
+	height: 100vh;
+	width: 50%;
+	text-align: center;
+ }
+
+
 .derecha {
    background: url(../imgs/ducati_1199_ducati_1199_panigale_motorcycle_red_101094_1366x768.jpg);
    background-size: cover;
@@ -257,10 +274,19 @@ img:hover{
 #pantalla-dividida {
    display: flex;
 }
-
 #bienvenido{
 	color:cornsilk;
 	font-size: 90px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+	font-family: 'Big Shoulders Display', cursive;
+	margin-top: 25%;
+	
+}
+#acerca{
+	color:cornsilk;
+	font-size: 60px;
 	width: 50%;
 	margin: auto;
 	margin-bottom: 20px;
@@ -280,6 +306,20 @@ img:hover{
 
 
 }
+
+#parrafo-info{
+
+	font-size: 25px;
+	line-height: 30px;
+	width: 50%;
+	margin: auto;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top:center;
+
+
+}
+
+
 
 #a-inicio{
 	border: 4px solid #fff;
