@@ -172,20 +172,26 @@ height: 100px;
 .tabla {
 	margin: auto;
 	border-spacing: 30px;
+	
 }
+
+
 img{
 
 	width: 370px;
 	height: 190px;
 	transition: transform 0.5s;
+	
 
 }
 
 img:hover{
-	filter: blur(1.3px);
+	
 	transform:  scale(1.1);
-
+	
 }
+
+
 
 #btn_login{
 	height: 30px;
@@ -261,3 +267,59 @@ img:hover{
 	font-size: 30px;
 	
 }
+
+#titulo-galeria{
+
+	color:rgb(223, 111, 6);
+	font-size: 70px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center;
+	
+}
+
+
+.img-container {
+	width: 372px;
+	height: 192px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	transition: transform 0.5s;
+
+  }
+  
+  .img-container:before {
+	content: '';
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	opacity: 0;
+	transition: opacity .1s ease-out;  
+	background-color: rgb(46, 44, 44, 0.8 ); 
+	filter: blur(1.3px);
+  }
+  
+  .img-container:hover:before { 
+	opacity: 1;
+  }
+
+
+  .img-container:hover { 
+	
+	transform:  scale(1.1);
+	
+  }
+  
+  .img-container .text-container {
+	width: inherit;
+	padding: 5px 15px;
+	color: rgb(245, 238, 238);
+	position: absolute;
+	top: 100%; 
+	
+  }
+  
+  .img-container:hover .text-container {    
+	top: 30%;
+  }

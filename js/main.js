@@ -1,7 +1,3 @@
-window.onload = () =>{
-    alert("BIENVENIDO A LA GALERÍA CON LAS MEJORES MOTOCICLETAS 2021");
-}
-
 
 
 let Userlist = [];
@@ -58,7 +54,6 @@ function review(username, password) {
 
   for (let i = 0; i < Userlist.length; i++) {
     if (username == Userlist[i][0] && password == Userlist[i][2]) {
-        alert("Entro Al If");
       pass = true;
     }
   }
@@ -66,7 +61,6 @@ function review(username, password) {
 }
 
 function inicio() {
-  alert("Funcion Inicio");
   let Username = "",
     Password = "";
 
