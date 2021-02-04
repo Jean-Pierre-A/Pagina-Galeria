@@ -313,7 +313,7 @@ img:hover{
   
   .img-container .text-container {
 	width: inherit;
-	padding: 5px 15px;
+	padding: 2px 8px;
 	color: rgb(245, 238, 238);
 	position: absolute;
 	top: 100%; 
@@ -322,4 +322,8 @@ img:hover{
   
   .img-container:hover .text-container {    
 	top: 30%;
+  }
+
+  .titulo-tabla{
+	  font-size: 30px;
   }
