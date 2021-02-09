@@ -1,4 +1,3 @@
-
 *{
 	padding: 2px;
 	margin: 0;
@@ -81,8 +80,6 @@ body{
 	background: #ef8354;
 
 }
-
-
 
 #h1-registro{
 
@@ -203,7 +200,6 @@ height: 100px;
 	
 }
 
-
 img{
 
 	width: 370px;
@@ -212,13 +208,11 @@ img{
 	
 
 }
-
 img:hover{
 	
 	transform:  scale(1.1);
 	
 }
-
 
 
 #btn_login{
@@ -227,8 +221,7 @@ img:hover{
 	
 	padding: 5px;
 	margin: 10px;
-	
-	
+		
 }
 
 #titulo{
@@ -256,12 +249,11 @@ img:hover{
 }
 
 .derecha-info {
-	background:rgb(79, 32, 207);
+	background:rgb(61, 6, 211);
 	height: 100vh;
 	width: 50%;
 	text-align: center;
  }
-
 
 .derecha {
    background: url(../imgs/ducati_1199_ducati_1199_panigale_motorcycle_red_101094_1366x768.jpg);
@@ -291,7 +283,7 @@ img:hover{
 	margin: auto;
 	margin-bottom: 20px;
 	font-family: 'Big Shoulders Display', cursive;
-	margin-top: 25%;
+	margin-top: 10%;
 	
 }
 
@@ -304,21 +296,33 @@ img:hover{
 	font-family: 'Ubuntu', sans-serif;
 	margin-top:center;
 
-
 }
 
 #parrafo-info{
 
 	font-size: 25px;
 	line-height: 30px;
-	width: 50%;
+	width: 60%;
 	margin: auto;
 	font-family: 'Ubuntu', sans-serif;
 	margin-top:center;
 
 
 }
-
+#a-home{
+	border: 4px solid #fff;
+	padding: 20px;
+	text-decoration: none;
+	color:honeydew;
+	border-radius: 30px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 5%;
+	display: inline-block;
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 30px;
+	
+}
 
 
 #a-inicio{
