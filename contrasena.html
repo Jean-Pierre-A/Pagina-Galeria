@@ -12,15 +12,15 @@
         <div class="form">
             <h1 id="h1-registro">Recuperar Cuenta</h1>
             <div class="gru">
-                <input type="text" name="" id="nombre-conta" required><span class="barra"></span>
+                <input type="text" name="NomContraseña" id="nombre-conta" required><span class="barra"></span>
                 <label>Nombre</label>
             </div>
             <div class="gru">
-                <input type="email" name="" id="email-conta" required><span class="barra"></span>
+                <input type="email" name="EmailContraseña" id="email-conta" required><span class="barra"></span>
                 <label>Email</label>
             </div>
 
-            <button id="btn-contasena" type="button">Enviar</button>
+            <button onclick="olvido_contrasena(this.form.NomContraseña.value, this.form.EmailContraseña.value);" id="btn-contasena" type="button">Enviar</button>
           
             
         </div>

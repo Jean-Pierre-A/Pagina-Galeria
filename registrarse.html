@@ -14,19 +14,19 @@
         <div class="form">
             <h1 id="h1-registro">Registro</h1>
             <div class="gru">
-                <input type="text" name="" id="input-name" required><span class="barra"></span>
+                <input type="text" name="nombre" id="input-name" required><span class="barra"></span>
                 <label>Nombre</label>
             </div>
             <div class="gru">
-                <input type="email" name="" id="input-email" required><span class="barra"></span>
+                <input type="email" name="email" id="input-email" required><span class="barra"></span>
                 <label>Email</label>
             </div>
             <div class="gru">
-                <input type="password" name="" id="input-contrasena" required><span class="barra"></span>
+                <input type="password" name="contraseña" id="input-contrasena" required><span class="barra"></span>
                 <label>Contraseña</label>
             </div>
 
-            <input id="btn-registrarse" type="button" value="Registrarse">
+            <button onclick="registrar(this.form.nombre.value, this.form.email.value, this.form.contraseña.value);" id="btn-registrarse" type="button" >Registrarse </button>
 
            
             

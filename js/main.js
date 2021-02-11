@@ -1,32 +1,15 @@
 
-
-let Userlist = [];
-let a = document.getElementById("btn-registrarse");
-if (a) {
-  a.addEventListener('click', registrar);
-}
-let b = document.getElementById("btn-login");
-if (b) {
-  b.addEventListener('click', inicio);
-}
-let c = document.getElementById("btn-contasena");
-if (c) {
-  c.addEventListener('click', olvido_contrasena);
-
-}
+let newUser = [];
+let Username,
+Password ,
+Email ;
 
 
-function registrar() {
+function registrar(nombre, contrasena, email) {
 
-  let newUser = [],
-    Username = "",
-    Password = "",
-    Email = "";
-
-  Username = document.getElementById("input-name").value;
-  Password = document.getElementById("input-email").value;
-  Email = document.getElementById("input-contrasena").value;
-
+  Username = nombre;
+  Password = contrasena;
+  Email = email;
   if (Username != "" && Password != "" && Email != "") {
     let pass = review(Username, Password , Email, 1);
     if (pass == false) {
@@ -72,12 +55,10 @@ function review(username, password,email,key) {
   return pass;
 }
 
-function inicio() {
-  let Username = "",
-    Password = "";
-
-  Username = document.getElementById("nombre").value;
-  Password = document.getElementById("contrasena").value;
+function inicio(nombre, contrasena) {
+  
+  Username = nombre;
+  Password = contrasena;
   if (Username != "" && Password != "") {
     let pass = review(Username, Password, null, 0);
     if (pass == true) {
@@ -90,12 +71,11 @@ function inicio() {
   }
 }
 
-function olvido_contrasena(){
+function olvido_contrasena(nombre, email){
+
   let Userlist = getUserlist();
-  let Username = "";
-  let Email = "";
-   Username = document.getElementById('nombre-conta').value;
-   Email = document.getElementById('email-conta').value;
+   Username = nombre;
+   Email = email;
   let Password = "";
 
   if (Username != "" && Email != "") {
@@ -118,3 +98,4 @@ function olvido_contrasena(){
 
 
 }
+
