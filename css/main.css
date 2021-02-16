@@ -8,6 +8,9 @@ body{
 	background-image: url(../imgs/triangle.jpg);
 	background-size: 100%;
 	height: 100vh;
+	overflow: hidden;
+
+
 }
 
 .a-index{
@@ -86,6 +89,7 @@ body{
 	text-align: center;
 	font-weight: 700;
 	font-size: 50px;
+	font-family: 'Big Shoulders Display', cursive;
 
 }
 
@@ -233,7 +237,7 @@ img:hover{
 
 .izquierda{
 	background:goldenrod;
-	height: 100vh;
+	height: 92vh;
 	width: 50%;
 	text-align: center;
 	
@@ -244,13 +248,13 @@ img:hover{
 	background-size: cover;
 	background-position: center;
 	width:50%;
-	height: 100vh;
+	height: 98.5vh;
 	
 }
 
 .derecha-info {
 	background:rgb(61, 6, 211);
-	height: 100vh;
+	height: 98.5vh;
 	width: 50%;
 	text-align: center;
  }
@@ -260,7 +264,7 @@ img:hover{
    background-size: cover;
    background-position: center;
    width:50%;
-   height: 100vh;
+   height: 92vh;
 }
 
 #pantalla-dividida {
